@@ -9,3 +9,7 @@ android:
     - extra-google-google_play_services
     - extra-google-m2repository
     - sys-img-armeabi-v7a-android-28
+env:
+  global:
+   # install timeout in minutes (2 minutes by default)
+    - ADB_INSTALL_TIMEOUT=8
